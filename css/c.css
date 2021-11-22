@@ -1,4 +1,4 @@
-  .container{
+        .container{
             display: inline-block;
             background-color: #38B6FF;
             width: 100%;
@@ -15,11 +15,7 @@
         }
         .busca{
             display: inline;
-            position: absolute;
             width: 895px;
-            height: 57px;
-            left: 214px;
-            top: 56px;
             background-color: #FFFFFF;;
             border: 2px solid black;
             box-sizing: border-box;
@@ -55,6 +51,10 @@
             font-size: 18px;
             line-height: 19px;
             text-decoration: none;
+        }
+        .botao:hover{
+            background-color: white;
+            color: #38B6FF;
         }
         .computadores{
             left: 220px;
@@ -94,6 +94,10 @@
             font-size: 16px;
             line-height: 19px;
             text-transform: uppercase;
+            text-decoration: none;
+        }
+        .minha_conta:link, :visited, :hover, :active{
+            color: black;
         }
         .carrinho{
             position: absolute;
@@ -134,6 +138,7 @@
             left: 0px;
             top: 184px;
             margin: 0px;
+            object-fit: cover;
         }
         .container_carrossel{
             display: inline-block;

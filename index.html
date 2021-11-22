@@ -7,65 +7,80 @@
     <!-- CSS only 
     <link href="css/c.css.txt" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     -->
-    <link href="css/c.css" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet">
     <title>Game Mania</title>
     
 </head>
 <body>
-   <!-- <nav>  -->
-        <div class="container">
-                <a href="">
-                    <img class="logo" src="imgs/logo.png" alt="Logomarca">
+    <header class="container">
+        <a href="">
+            <picture>
+                <source media="(max-width: 880px)" srcset="imgs/logo_p.png">
+                <img class="logo" src="imgs/logo_g.png" alt="Logomarca">
+            </picture>
+        </a>
+        <nav class="navbar_principal">
+            <form class="busca">
+                <input type="text" placeholder="Buscar...">
+                <a href="" class="lupa">
+                    <img src="imgs/lupa.png" alt="Lupa de Busca">
                 </a>
-            <div class="busca">
-                <input class="busca_txt" type="text">
-                <a href="">
-                    <img class="lupa" src="imgs/lupa.png" alt="Lupa de Busca">
-                </a>
-            </div>
+            </form>
             <div class="menu">
                 <a class="botao computadores" href="">Computadores</a>
                 <a class="botao monitores" href="">Monitores</a>
                 <a class="botao cadeiras" href="">Cadeiras</a>
-                <a class="botao mobile" href="">Mobile</a>
+                <a class="botao mobile" href="celulares.html">Celulares</a>
                 <a class="botao consoles" href="">Consoles</a>
                 <a class="botao jogos" href="">Jogos</a>
             </div>
-            <a class="minha_conta" href="">Minha Conta</a>
+        </nav>
+        <nav class="navbar_login">
+            <div class="login">
+                <a class="minha_conta" href="">Minha Conta</a>
+                <a href="">
+                    <img class="carrinho" src="imgs/carrinho.png" alt="Carrinho de Compras">
+                </a>
+            </div>
+            <div class="contatos">
+                <a href="">
+                    <img class="icone wpp" src="imgs/wpp.png" alt="">    
+                </a>
+                <a href="">
+                    <img class="icone email" src="imgs/email.png" alt="">
+                </a>
+                <a href="">
+                    <img class="icone maps" src="imgs/maps.png" alt="">
+                </a>
+                <a href="">
+                    <img class="icone face" src="imgs/face.png" alt="">
+                </a>
+                <a href="">
+                    <img class="icone insta" src="imgs/insta.png" alt="">
+                </a>
+            </div>
+            <div class="hamburguer">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <a href="" class="banner">
+            <img src="imgs/banner.png" alt="">
+        </a>
+        <div class="cards">
             <a href="">
-                <img class="carrinho" src="imgs/carrinho.png" alt="Carrinho de Compras">
+                <img src="imgs/card01.jpg" alt="">
             </a>
             <a href="">
-                <img class="icone wpp" src="imgs/wpp.png" alt="">    
+                <img src="imgs/card02.jpg" alt="">
             </a>
             <a href="">
-                <img class="icone email" src="imgs/email.png" alt="">
-            </a>
-            <a href="">
-                <img class="icone maps" src="imgs/maps.png" alt="">
-            </a>
-            <a href="">
-                <img class="icone face" src="imgs/face.png" alt="">
-            </a>
-            <a href="">
-                <img class="icone insta" src="imgs/insta.png" alt="">
+                <img src="imgs/card03.jpg" alt="">
             </a>
         </div>
-         <!-- </nav>  -->
-   <!-- <nav>  -->
-        <img class="imagem01" src="imgs/img01.jpg" alt="">
-     <!-- </nav>  -->
-    <div class="container_carrossel">
-        <a href="">
-            <img class="carrossel um" src="imgs/carrossel01.jpg" alt="">
-        </a>
-        <a href="">
-            <img class="carrossel dois" src="imgs/carrossel02.jpg" alt="">
-        </a>
-        <a href="">
-            <img class="carrossel tres" src="imgs/carrossel03.jpg" alt="">
-        </a>
-    </div>
+    </main>
 </body>
 </html>
-
